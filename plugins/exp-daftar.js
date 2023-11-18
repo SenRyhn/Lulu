@@ -27,14 +27,14 @@ let handler = async function (m, { text, usedPrefix, command }) {
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.ibb.co/2WzLyGk/profile.jpg')
     let user = global.db.data.users[m.sender]
     if (user.registered === true) throw `[💬] Kamu sudah terdaftar\nMau daftar ulang? *${usedPrefix}unreg <SERIAL NUMBER>*\n*allmenu* [Menampilkan Semua Perintah]`
-    if (!Reg.test(text)) return m.reply(`Silahkan Ketik:\n${usedPrefix + command} nama.umur\n\nContoh:\n${usedPrefix + command} Reijuu.16`)
+    if (!Reg.test(text)) return m.reply(`Silahkan Ketik:\n${usedPrefix + command} nama.umur\n\nContoh:\n${usedPrefix + command} Filia.10`)
     let [_, name, splitter, age] = text.match(Reg)
     if (!name) return m.reply('Nama tidak boleh kosong (Alphanumeric)')
     if (!age) return m.reply('Umur tidak boleh kosong (Angka)')
     age = parseInt(age)
-    if (age > 70) return m.reply('HALAH" TUA (^_-)')
-    if (age < 5) return m.reply('Halah" Bocil (^o^)')
-    if (name.split('').length > 100) return m.reply('Nama Maksimal 100 Karakter Ajg')
+    if (age > 100) return m.reply('HALAH" TUA (^_-)')
+    if (age < 10) return m.reply('Halah" Bocil (^o^)')
+    if (name.split('').length > 20) return m.reply('Nama Maksimal 20 Karakter Ajg')
     user.name = name.trim()
     user.age = age
     user.regTime = + new Date
@@ -48,7 +48,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 ┗───•
  ◉ *sɴ:* ${sn}
  
-ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ʙᴀᴄᴀ ʀᴜʟᴇs ʏᴀ ᴋᴀᴋ...
+ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ʙᴀᴄᴀ ʀᴜʟᴇs ʏᴀ ᴋᴀᴋ... (ᴋᴇᴛɪᴋ !ʀᴜʟᴇꜱ)
 ᴅᴀᴛᴀ ᴜsᴇʀ ʏᴀɴɢ ᴛᴇʀsɪᴍᴘᴀɴ ᴅɪᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ, ᴅɪᴊᴀᴍɪɴ ᴀᴍᴀɴ ᴛᴀɴᴘᴀ ᴛᴇʀsʜᴀʀᴇ 📁\n*.allmenu [Menampilkan Semua Fitur]*
 
 ⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}
