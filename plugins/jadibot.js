@@ -7,15 +7,15 @@ OWNER BOT MELAYANI :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 JASA JADIBOT : 25K
 ---------------------------------------------------------------------
-KONTAK OWNER : wa.me/6282389924037
+KONTAK OWNER : wa.me/62975626924
 
 
 
 ⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕
-        © _VynaaMD_
+       ~ "SenR" ~
 
 `.trim()
-  conn.sendFile(m.chat, 'https://telegra.ph/file/50a3ea0fe37a97627d5ff.jpg', null, caption, m)
+  conn.sendFile(m.chat, 'https://telegra.ph/file/a98a3bb983cebccdeabae.jpg', null, caption, m)
 }
 handler.help = ['jadibot']
 handler.tags = ['jadibot']
