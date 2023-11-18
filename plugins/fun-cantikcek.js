@@ -1,4 +1,5 @@
 let handler  = async (m, { conn }) => {
+  if (m.sender == info.nomorbot + '@s.whatsapp.net') throw 'Inimah Gausah Ditanya Lagi, Aku Udah Pasti 100% Beautifull Abiezz'
   conn.reply(m.chat,`“${pickRandom(cantik)}”`, m)
 }
 handler.help = ['cantikcek']
