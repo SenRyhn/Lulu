@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m) => {
-let teks = `乂 *Rules VynaaMD:*
+let teks = `乂 *Rules Pemakaian FiliaBot:*
 
 ❃ 1. Dilarang Melakukan Spam Kepada Bot, Jika Ketahuan Akan Di Banned
 
@@ -14,9 +14,9 @@ Tebak Tebakan
 Rpg Game
 Dll
 
-❃ 5. Dilarang Mengirim Virtex/Bug Ke Bot, Walau Gaada Efek :v
+❃ 5. Dilarang Mengirim Virtex/Bug Ke Bot, Walau Gaada Efek (tetep aja bala asw)
 
-❃ 6. Dilarang Keras Menelpon Bot, Jika Menelpon Akan Otomatis Di Block
+❃ 6. Dilarang Keras Menelpon Bot, Jika Menelpon Akan Otomatis Di Block (tanggung sendiri)
 
 ❃ 7. Jika Tidak Mengerti Cara Menggunakan Bot, Silahkan Bertanya Pada Member Lain, Atau Jika Tidak Join Group Bot Silahkan Ketik #gcbot Dan Masuk Group Bot
 
@@ -25,6 +25,8 @@ Dll
 ❃ 9. Jika Bot Delay Jangan Di Spam Terlebih Dahulu
 
 ❃ 10. Untuk User *Premium* Dilarang Keras Asal Bug Orang
+
+*Ketahuan Langgar Otomatis Banned Permanen*
 `
 	
   conn.reply(m.chat, teks, m, {
