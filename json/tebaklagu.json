@@ -115,11 +115,6 @@
     "artis": "Linkin Park"
    },
    {
-    "lagu": "https://raw.githubusercontent.com/Aiinne/scrape/main/song/.mp3",
-    "judul": "Die Young",
-    "artis": "Kesha"
-   },
-   {
     "lagu": "https://raw.githubusercontent.com/Aiinne/scrape/main/song/playdate.mp3",
     "judul": "Play Date",
     "artis": "Melanie Martinez"
@@ -203,5 +198,90 @@
     "lagu": "https://raw.githubusercontent.com/Aiinne/scrape/main/song/sound8101.mp3",
     "judul": "Wonderland",
     "artis": "Axel Johansson"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Aaryan%20Shah%20%20Renegade%20Lyrics%20wk.mp3",
+    "judul": "Renegade",
+    "artis": "Aaryan Shah"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Bring%20Me%20The%20Horizon%20%20Teardrops%20Lyrics.mp3",
+    "judul": "Teardrops",
+    "artis": "Bring Me The Horizon"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Budi%20Doremi%20%20DoReMi%20Official%20Music%20Video.mp3",
+    "judul": "DoReMi",
+    "artis": "Budi Doremi"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Camila%20Cabello%20%20Havana%20Audio%20ft%20Young%20Thug.mp3",
+    "judul": "Havana",
+    "artis": "Camila Cabello"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20I%20Like%20You%20So%20Much%20Youll%20Know%20It%20%20Ysabelle%20Cuevas%20Lyrics%20.mp3",
+    "judul": "I Like You So Much Youll Know It",
+    "artis": "Ysabelle Cuevas"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20KU%20LO%20SA%20but%20its%20only%20the%20best%20part%20and%20slowed.mp3",
+    "judul": "KU LO SA",
+    "artis": "Oxlade"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20LIMBO%20%20Keshi.mp3",
+    "judul": "LIMBO",
+    "artis": "Keshi"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Last%20Child%20%20Sekuat%20Hatimu%20Lirik.mp3",
+    "judul": "Sekuat Hatimu",
+    "artis": "Last Child"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Libianca%20%20People%20Lyrics%20ft%20Becky%20G.mp3",
+    "judul": "People",
+    "artis": "Libianca"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Mockingbird%20%20Eminem%20Lyrics%20full%20chorus.mp3",
+    "judul": "Mocking Bird",
+    "artis": "Eminem"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20NAYEON%20TWICE%20Heart%20shaker%20The%20best%20part.mp3",
+    "judul": "Heart Shaker",
+    "artis": "TWICE"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Only%20The%20Good%20and%20Best%20Part%20of%20Eminems%20Venom.mp3",
+    "judul": "Venom",
+    "artis": "Eminem"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Powfu%20%20Death%20Bed%20Lyrics%20ft%20beabadoobee%20%20dont%20stay%20awake%20for%20too%20long.mp3",
+    "judul": "Death Bed",
+    "artis": "Powfu ft. beabadoobee"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20Shawn%20Mendes%20Camila%20Cabello%20%20Se%C3%B1orita%20Lyrics.mp3",
+    "judul": "Senorita",
+    "artis": "Shawn Mendes and Camila Cabello"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20TheFatRat%20%20Monody%20Lyrics%20feat%20Laura%20Brehm.mp3",
+    "judul": "Monody",
+    "artis": "TheFatRat ft. Laura Brehm"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20TheFatRat%20%20Anjulie%20%20Close%20To%20The%20Sun.mp3",
+    "judul": "Close To The Sun",
+    "artis": "TheFatRat"
+   },
+   {
+    "lagu": "https://raw.githubusercontent.com/EggDisplayer/mp3-File/main/mp3/y2mate.com%20-%20keshi%20%20UNDERSTAND%20Visualizer.mp3",
+    "judul": "UNDERSTAND",
+    "artis": "Keshi"
    }
 ]
