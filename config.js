@@ -4,36 +4,36 @@ import { fileURLToPath } from 'url'
 
 /*============== INFO OWNER ==============*/
 global.link = {
-	ig: 'https://instagram.com/_xwby_',
-	gh: 'https://linkbio.co/VLShop',
-	gc: 'https://chat.whatsapp.com/FnqsUPu0FsTInf5UFJ9yLe',
-	web: 'https://linkbio.co/VLShop',
-	nh: 'https://nhentai.net/g/365296/'
+	ig: '-',
+	gh: 'https://wa.me/628975626924',
+	gc: 'https://chat.whatsapp.com/H1zjeJzfR5tFfbUNXi87Gv',
+	web: 'https://github.com/SenRyhn',
+	nh: '-'
 }
 
 /*============== PAYMENT ==============*/
 global.pay = {
-	dana: '082389924037',
-	ovo: '082389924037',
-	gopay: '082389924037',
-	pulsa: '082389924037',
-	qris: 'https://telegra.ph/file/636b0b1730da1923dce35.jpg'
+	dana: '0895359831246',
+	ovo: '-',
+	gopay: '-',
+	pulsa: '0895359831246',
+	qris: '-'
 }
 
 /*============== NOMOR ==============*/
 global.info = {
-	nomorbot: '6283896757956',
-	nomorown: '6289518965891',
-	namebot: 'VynaaMD 10.10',
-	nameown: 'Vynα Vαlerié.'
+	nomorbot: '62895359831246',
+	nomorown: '628975626924',
+	namebot: '🍔ꜰɪʟɪᴀ✨',
+	nameown: '𝕊𝕖𝕟ℝ'
 }
 
 /*============== STAFF ==============*/
 global.owner = [
-    ['6289518965891', 'Vynα Vαlerié', 'true']
+    ['628975626924', '𝕊𝕖𝕟ℝ', 'true']
     // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [] // Want some help?
+global.mods = ['62895359831246'] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 /*============== API ==============*/
@@ -59,11 +59,11 @@ global.APIKeys = {
 }
 
 /*============== WATERMARK ==============*/
-global.wm = '© VynaaMD 10.9' //Main Watermark
-global.author = 'Vynα Vαlerié.'
+global.wm = '𝑀𝒶𝒹𝑒 𝒷𝓎 𝐹𝒾𝓁𝒾𝒶 𝐵𝑜𝓉' //Main Watermark
+global.author = '𝔹𝕠𝕥 𝕄𝕒𝕕𝕖 𝕓𝕪 𝕊𝕖𝕟ℝ'
 
 /*============== TEXT ==============*/
-global.wait = '_In Progress_, _Tunggu Ya kak..._'
+global.wait = 'ꜱᴇᴅᴀɴɢ ᴋᴜᴘʀᴏꜱᴇꜱ ᴍᴏʜᴏɴ ᴛᴜɴɢɢᴜ ꜱᴇʙᴇɴᴛᴀʀ...'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.doc = {
@@ -93,8 +93,8 @@ global.decor = {
 	htka: '』––––––',
 	haki: '┅━━━═┅═❏',
 	haka: '❏═┅═━━━┅',
-	lopr: 'Ⓟ',
-	lolm: 'Ⓛ',
+	lopr: '【P】',
+	lolm: '【L】',
 	htjava: '❃'
 }
 
@@ -330,10 +330,10 @@ global.hwaifu = [
 ]
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Made With'
-global.stickauth = 'VynaaMD 10.10'
+global.stickpack = '𝐹𝒾𝓁𝒾𝒶 𝐵𝑜𝓉 𝒷𝓎'
+global.stickauth = 'ꜱᴇɴʀ'
 
-global.multiplier = 38 // The higher, The harder levelup
+global.multiplier = 69 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
