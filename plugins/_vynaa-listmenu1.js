@@ -7,39 +7,39 @@ import moment from 'moment-timezone'
 import os from 'os'
 import fs from 'fs'
 let tags = {
-  'main': 'Main',
-  'game': 'Game',
-  'rpg': 'RPG Games',
-  'xp': 'Exp & Limit',
-  'sticker': 'Sticker',
-  'kerang': 'Kerang Ajaib',
-  'quotes': 'Quotes',
-  'fun': 'Fun',
-  'anime': 'Anime & Manga',
-  'adminry': 'Admin',
-  'group': 'Group',
-  'store': 'Store',
-  'vote': 'Voting',
-  'absen': 'Absen',
-  'premium': 'Premium',
-  'nsfw': 'Nsfw',
-  'anonymous': 'Anonymous Chat',
-  'internet': 'Internet',
-  'genshin': 'Genshin',
-  'news': 'News',
-  'downloader': 'Downloader',
-  'search': 'Searching',
-  'tools': 'Tools',
-  'primbon': 'Primbon',
-  'nulis': 'MagerNulis & Logo',
-  'audio': 'Audio Editing',
-  'maker': 'Maker',
-  'database': 'Database',
-  'quran': 'Al Quran',
-  'owner': 'Owner', 
-  'info': 'Info',
-  'random': 'Random',
-  'sound': 'Sound',
+  'main': '𝑀𝒶𝒾𝓃',
+  'game': '𝒢𝒶𝓂𝑒',
+  'rpg': '𝑅𝒫𝒢 𝒢𝒶𝓂𝑒',
+  'xp': '𝐸𝓍𝓅 𝓃 𝐿𝒾𝓂𝒾𝓉',
+  'sticker': '𝒮𝓉𝒾𝒸𝓀𝑒𝓇 𝓂𝑒𝓃𝓊',
+  'kerang': '𝒦𝓊𝓁𝒾𝓉 𝒦𝑒𝓇𝒶𝓃𝑔 𝒜𝒿𝒶𝒾𝒷',
+  'quotes': '𝒬𝓊𝑜𝓉𝑒𝓈',
+  'fun': '𝒮𝑒𝓇𝓊-𝒮𝑒𝓇𝓊'𝒶𝓃',
+  'anime': '𝒜𝓃𝒾𝓂𝑒 𝓃 𝑀𝒶𝓃𝑔𝒶',
+  'adminry': '𝒜𝒹𝓂𝒾𝓃 𝒞𝓂𝒹',
+  'group': '𝒢𝓇𝑜𝓊𝓅𝓈 𝒪𝓃𝓁𝓎',
+  'store': '𝒯𝑜𝓀𝑜',
+  'vote': '𝒱𝑜𝓉𝒾𝓃𝑔',
+  'absen': '𝒜𝒷𝓈𝑒𝓃',
+  'premium': '𝒮𝓊𝓅𝓅𝑜𝓇𝓉 𝑀𝑒',
+  'nsfw': '𝒮𝒰𝒮 𝒸𝑜𝓃𝓉𝑒𝓃𝓉',
+  'anonymous': '𝒜𝓃𝑜𝓃𝓎𝓂𝑜𝓊𝓈 𝒸𝒽𝒶𝓉',
+  'internet': '𝐼𝓃𝓉𝑒𝓇𝓃𝑒𝓉',
+  'genshin': '𝒢𝑒𝓃𝓈𝒽𝒾𝓃 𝐼𝓂𝓅𝒶𝒸𝓉 𝐻𝑒𝓁𝓅',
+  'news': '𝐵𝑒𝓇𝒾𝓉𝒶',
+  'downloader': '𝒟𝑜𝓌𝓃𝓁𝑜𝒶𝒹𝑒𝓇',
+  'search': '𝒢𝑜𝑜𝑔𝓁𝒾𝓃𝑔',
+  'tools': '𝒜𝓁𝒶𝓉',
+  'primbon': '𝒫𝓇𝒾𝓂𝒷𝑜𝓃',
+  'nulis': '𝑀𝒶𝓁𝒶𝓈𝒩𝓊𝓁𝒾𝓈 𝓃 𝐿𝑜𝑔𝑜𝑀𝒶𝓀𝑒𝓇',
+  'audio': '𝒜𝓊𝒹𝒾𝑜 𝐸𝒹𝒾𝓉𝑜𝓇',
+  'maker': '𝑀𝒶𝓀𝑒𝓇',
+  'database': '𝒟𝒶𝓉𝒶𝒷𝒶𝓈𝑒',
+  'quran': '𝐻𝒶𝓁𝒶𝓁 𝑀𝑒𝓃𝓊',
+  'owner': '𝒪𝓌𝓃𝑒𝓇 𝑜𝓃𝓁𝓎', 
+  'info': '𝐼𝓃𝒻𝑜',
+  'random': '𝑀𝑒𝓃𝓊 𝒯𝒶𝓂𝒷𝒶𝒽𝒶𝓃',
+  'sound': '𝒮𝑜𝓊𝓃𝒹',
 }
 const defaultMenu = {
   before: `
@@ -54,8 +54,8 @@ const defaultMenu = {
 ║➷ *Total Xp* : %totalexp
 ╚══════════════┉
 ╔═══┉ 『 *INFORMATION* 
-║🅟 *Premium User*
-║🅛 *Limit Use Limits*
+║🄿 *Premium User*
+║🄻 *Limit Use Limits*
 ╚══════════════┉
 ▬▭▬▭ *ALL MENU* ▬▭▬▭
 %readmore
@@ -63,7 +63,7 @@ const defaultMenu = {
   header: '╭▬▭『 *%category* 』',
   body: '┃ ⇨ %cmd %isPremium %islimit',
   footer: '╰▬▭▬▭▬▭▬▭',
-  after: '_© Create by Vynaa_',
+  after: 'Dibuat Oleh SenR',
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -142,8 +142,8 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
           ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
             return menu.help.map(help => {
               return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
-                .replace(/%islimit/g, menu.limit ? '🅛' : '')
-                .replace(/%isPremium/g, menu.premium ? '🅟' : '')
+                .replace(/%islimit/g, menu.limit ? '🄻' : '')
+                .replace(/%isPremium/g, menu.premium ? '🄿' : '')
                 .trim()
             }).join('\n')
           }),
@@ -178,17 +178,17 @@ pageCount: 100,
 caption: text,
 contextInfo: {
 externalAdReply: {
-title: "VynaaMD",
-body: 'Chat Bot WhatsApp',
+title: "ＦｉｌｉａＭＤ",
+body: '𝕄𝕒𝕕𝕖 𝕓𝕪 𝕊𝕖𝕟ℝ',
 thumbnail: fs.readFileSync('./media/thumbnail.jpg'),
-sourceUrl: "https://shoplinks.to/vyna-store",
+sourceUrl: "https://github.com/SenRyhn",
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
     /*await conn.adReply(m.chat, text.trim(), wish() + ' ' + name, '', fs.readFileSync('./media/thumbnail.jpg'), link.web, m)*/
-          let vn = "./vn/yowaimo.mp3"
+          let vn = "./vn/ping.mp3"
       
-	conn.sendFile(m.chat, vn, "ehee.mp3", null, m, true, {
+	conn.sendFile(m.chat, vn, "ping.mp3", null, m, true, {
 		type: "audioMessage",
 		ptt: true,
 	});
