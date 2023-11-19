@@ -5,13 +5,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             case 'off': {
                 if (chat.isBanned) throw '_Bot Sudah Offline_'
                 chat.isBanned = true
-                conn.reply(m.chat, '𝓜𝓮𝓷𝔂𝓪𝓵𝓪𝓴𝓪𝓷 𝓢𝔂𝓼𝓽𝓮𝓶', m)
+                conn.reply(m.chat, '𝓜𝓮𝓶𝓪𝓽𝓲𝓴𝓪𝓷 𝓢𝔂𝓼𝓽𝓮𝓶', m)
 }
                 break
             case 'on': {
                 if (!chat.isBanned) throw '_Bot Sudah Online_'
                 chat.isBanned = false
-                conn.reply(m.chat, '𝓜𝓮𝓶𝓪𝓽𝓲𝓴𝓪𝓷 𝓢𝔂𝓼𝓽𝓮𝓶', m)
+                conn.reply(m.chat, '𝓜𝓮𝓷𝔂𝓪𝓵𝓪𝓴𝓪𝓷 𝓢𝔂𝓼𝓽𝓮𝓶', m)
 }
                 break
             default: {
